@@ -1,0 +1,15 @@
+{
+  "short_name": "Persian Gulf",
+  "name": "Persian Gulf Blockchain Explorer",
+  "icons": [
+    {
+      "src": "brand/pgb-logo.png",
+      "sizes": "681x645",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#06080d",
+  "background_color": "#06080d"
+}

@@ -1,0 +1,29 @@
+{
+  "bugs": "https://github.com/PGBOfficial/pgb-explorer/issues",
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/PGBOfficial/pgb-explorer",
+  "license": "Apache-2.0",
+  "name": "@polkadot/app-bounties",
+  "private": true,
+  "repository": {
+    "directory": "packages/page-bounties",
+    "type": "git",
+    "url": "https://github.com/PGBOfficial/pgb-explorer.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.171.2-12-x",
+  "dependencies": {
+    "@polkadot/react-components": "^0.171.2-12-x"
+  },
+  "devDependencies": {
+    "@polkadot/test-support": "0.171.2-12-x"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-is": "*"
+  }
+}

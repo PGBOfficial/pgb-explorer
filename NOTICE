@@ -1,0 +1,11 @@
+PGB Explorer is a modified distribution of Polkadot.js Apps.
+Upstream: https://github.com/polkadot-js/apps
+Source version: 0.171.2-12-x (user-supplied source archive; Git commit not included).
+Apache License 2.0: see LICENSE and original source copyright headers.
+Original author/contributor attribution remains in source and UPSTREAM-README.md.
+PGB changes include the existing approved visual identity, official endpoint and maintenance links.
+The visible footer is project branding; upstream attribution is preserved here and in the README.
+This is not an official Polkadot.js release.
+
+PGB Explorer توزیع تغییریافته Polkadot.js Apps با مجوز Apache-2.0 است.
+مجوز، سربرگ‌ها و انتساب اصلی حفظ شده‌اند؛ این محصول انتشار رسمی تیم Polkadot.js نیست.

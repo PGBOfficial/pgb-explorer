@@ -1,0 +1,524 @@
+{
+  "date": "2026-11-26",
+  "unitTestsBeforePatches": 3373,
+  "unitTestsAfterPatches": 3373,
+  "buildErrors": 0,
+  "buildWarnings": 0,
+  "themeWaveLogoLicenseHashesUnchanged": true,
+  "cryptoPatchTests": {
+    "at": "2026-11-26T18:13:05.913Z",
+    "oldEllipticVersion": "6.5.4",
+    "currentEllipticVersion": "6.6.1",
+    "oldMalformedSignaturesReuseR": true,
+    "currentRejectsNegative": true,
+    "currentValidSignatureEqualsOld": true,
+    "currentSignatureVerified": true,
+    "oldHashRewind": true,
+    "currentShaRejectsObject": true,
+    "validShaOutputUnchanged": true,
+    "oldCipherAcceptsObject": true,
+    "currentCipherAcceptsObject": false,
+    "privateKeyPrintedOrSaved": false
+  },
+  "rawWss": {
+    "at": "2026-11-26T18:12:16.006Z",
+    "endpoint": "wss://rpc.persiangulfchain.com",
+    "events": [
+      "open"
+    ],
+    "responses": [
+      {
+        "method": "system_chain",
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "Persian Gulf Blockchain Testnet"
+      },
+      {
+        "method": "chain_subscribeNewHeads",
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "HBZsq3XNhuQnsJ3X"
+      },
+      {
+        "method": "system_properties",
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": {
+          "ss58Format": 42,
+          "tokenDecimals": 18,
+          "tokenName": "Persian Gulf Coin",
+          "tokenSymbol": "PGC"
+        }
+      },
+      {
+        "method": "chain_getFinalizedHead",
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0xa736276d8fdf6ecc2f436f0f5da2727bac3c58317b0264bbc185451b35feba40"
+      },
+      {
+        "method": "rpc_methods",
+        "jsonrpc": "2.0",
+        "id": 8,
+        "methodCount": 134
+      },
+      {
+        "method": "chain_getHeader",
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": {
+          "parentHash": "0x73ae13c201251628ed97b1aaf0eee387c02fefa26d7588a53c4a6a2fcb92e584",
+          "number": "0x10865a",
+          "stateRoot": "0x3ca2a43146659766f89d1c1ad4e92f1429bcd008785f85bae40c590d5c5cbc2b",
+          "extrinsicsRoot": "0xc05c769fda0c14d74268720e34b0bc1d98235a2ad9f0c019fb05e67a94e10682",
+          "digest": {
+            "logs": [
+              "0x0642414245b5010100000000d77cad230000000002c92fe6c5e3c43d309de180be133cec6b7343877fa995b155a481e03eb0be27813cdb55d2f4da082b4111b7430108b5447adeab653fc28d3a87c9bae9f64c0f7d1039edb28d7dd7d55647c013bd25a2c0949b87e4e5af8506ff8da727f6720d",
+              "0x04424545468403ef5d15f92c73108f2864bcfe4280b030037b00fc684505f87a8e17e6bfc6ebf4",
+              "0x05424142450101fa152b98e8286d0b24cbcd8c9487a43de9bd39651d6a7aa63acbf6dadac68b1820edfb078567f754751ad567b110a68a0b96fa129aff70eb234d8c2a2cd17185"
+            ]
+          }
+        }
+      },
+      {
+        "method": "system_health",
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": {
+          "peers": 3,
+          "isSyncing": false,
+          "shouldHavePeers": true
+        }
+      },
+      {
+        "method": "state_getRuntimeVersion",
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": {
+          "specName": "node",
+          "implName": "substrate-node",
+          "authoringVersion": 10,
+          "specVersion": 268,
+          "implVersion": 0,
+          "apis": [
+            [
+              "0x91d5df18b0d2cf58",
+              2
+            ],
+            [
+              "0x37c8bb1350a9a2a8",
+              4
+            ],
+            [
+              "0xf3ff14d5ab527059",
+              3
+            ],
+            [
+              "0xf78b278be53f454c",
+              2
+            ],
+            [
+              "0x8453b50b22293977",
+              1
+            ],
+            [
+              "0x687ad44ad37f03c2",
+              1
+            ],
+            [
+              "0x8a8047a53a8277ec",
+              1
+            ],
+            [
+              "0xbc9d89904f5b923f",
+              1
+            ],
+            [
+              "0xab3c0572291feb8b",
+              1
+            ],
+            [
+              "0x8c403e5c4a9fd442",
+              1
+            ],
+            [
+              "0x49eaaf1b548a0cb0",
+              5
+            ],
+            [
+              "0x40fe3ad401f8959a",
+              6
+            ],
+            [
+              "0x18ef58a3b67ba770",
+              1
+            ],
+            [
+              "0xccd9de6396c899ca",
+              1
+            ],
+            [
+              "0x17a6bc0d0062aeb3",
+              1
+            ],
+            [
+              "0xdf6acb689907609b",
+              5
+            ],
+            [
+              "0xd2bc9897eed08f15",
+              3
+            ],
+            [
+              "0x68b66ba122c93fa7",
+              2
+            ],
+            [
+              "0x6fd7c327202e4a8d",
+              1
+            ],
+            [
+              "0xcbca25e39f142387",
+              2
+            ],
+            [
+              "0x65f855d6e093c2f1",
+              1
+            ],
+            [
+              "0x899a250cbe84f250",
+              1
+            ],
+            [
+              "0xed99c5acb25eedf5",
+              3
+            ],
+            [
+              "0x37e397fc7c91f5e4",
+              2
+            ],
+            [
+              "0xbe9fb0c91a8046cf",
+              1
+            ],
+            [
+              "0xfbc577b9d747efd6",
+              1
+            ]
+          ],
+          "transactionVersion": 2,
+          "systemVersion": 1,
+          "stateVersion": 1
+        }
+      },
+      {
+        "method": "chain_getBlock",
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": {
+          "block": {
+            "header": {
+              "parentHash": "0x73ae13c201251628ed97b1aaf0eee387c02fefa26d7588a53c4a6a2fcb92e584",
+              "number": "0x10865a",
+              "stateRoot": "0x3ca2a43146659766f89d1c1ad4e92f1429bcd008785f85bae40c590d5c5cbc2b",
+              "extrinsicsRoot": "0xc05c769fda0c14d74268720e34b0bc1d98235a2ad9f0c019fb05e67a94e10682",
+              "digest": {
+                "logs": [
+                  "0x0642414245b5010100000000d77cad230000000002c92fe6c5e3c43d309de180be133cec6b7343877fa995b155a481e03eb0be27813cdb55d2f4da082b4111b7430108b5447adeab653fc28d3a87c9bae9f64c0f7d1039edb28d7dd7d55647c013bd25a2c0949b87e4e5af8506ff8da727f6720d",
+                  "0x04424545468403ef5d15f92c73108f2864bcfe4280b030037b00fc684505f87a8e17e6bfc6ebf4",
+                  "0x05424142450101fa152b98e8286d0b24cbcd8c9487a43de9bd39651d6a7aa63acbf6dadac68b1820edfb078567f754751ad567b110a68a0b96fa129aff70eb234d8c2a2cd17185"
+                ]
+              }
+            },
+            "extrinsics": [
+              "0x280503000b88f70e19a201",
+              "0x1005210300"
+            ]
+          },
+          "justifications": null
+        }
+      },
+      {
+        "method": "chain_getBlockHash",
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x723184e0d2628f7bd203c580101778cf0b3428736d617dd59699b29c14d1fb6a"
+      },
+      {
+        "method": "state_getMetadata",
+        "jsonrpc": "2.0",
+        "id": 10,
+        "metadataBytes": 650233,
+        "metadataSha256": "54feecf52a831b3e6b54c8a3a88f2a55aa3d5d866492ea45af0c8bf264827234"
+      }
+    ],
+    "heads": [
+      {
+        "number": "0x10865a",
+        "hashParent": "0x73ae13c201251628ed97b1aaf0eee387c02fefa26d7588a53c4a6a2fcb92e584"
+      },
+      {
+        "number": "0x10865b",
+        "hashParent": "0x6f51245c7d6cecb6cfdc2817e0eb0b79d69e6abe0ae3972caf4442d6849960f9"
+      },
+      {
+        "number": "0x10865c",
+        "hashParent": "0x8852f632411587b64a72ef2249a5e803be3037e704ab2faf569ab1194d96f0ce"
+      }
+    ]
+  },
+  "readOnlyApi": {
+    "at": "2026-11-26T18:13:06.032Z",
+    "endpoint": "wss://rpc.persiangulfchain.com",
+    "tests": [
+      {
+        "name": "finalized-block-extrinsics-events",
+        "status": "passed-read-only",
+        "result": {
+          "hash": "0x0cecb9719e4ee01f9a684f35570e5dc9012fae24722d4ffbece89cc0df7040ef",
+          "number": 1082985,
+          "extrinsics": [
+            {
+              "hash": "0xd6093b8a9ece06ad3b6483d159bd2abced6ee05166901bd8244aeda7639b96c4",
+              "call": "timestamp.set",
+              "isSigned": false
+            },
+            {
+              "hash": "0x11ceb8473a0f488e1f43f97f5c2a5ef438b2b2d9a177288171d70b758bcfcbce",
+              "call": "glutton.bloat",
+              "isSigned": false
+            }
+          ],
+          "events": [
+            {
+              "section": "system",
+              "method": "ExtrinsicSuccess"
+            },
+            {
+              "section": "system",
+              "method": "ExtrinsicSuccess"
+            }
+          ]
+        }
+      },
+      {
+        "name": "accounts-system-account",
+        "status": "passed-read-only",
+        "result": {
+          "address": "5C4hrfjw9DjXZTzV3MwzrrAr9P1MJhSrvWGWqi1eSuyUpnhM",
+          "account": {
+            "nonce": 0,
+            "consumers": 0,
+            "providers": 0,
+            "sufficients": 0,
+            "data": {
+              "free": 0,
+              "reserved": 0,
+              "frozen": 0,
+              "flags": "0x80000000000000000000000000000000"
+            }
+          }
+        }
+      },
+      {
+        "name": "assets",
+        "status": "passed-read-only",
+        "result": [
+          {
+            "key": [
+              "229,102"
+            ],
+            "value": {
+              "owner": "5D77Xj7cWGhf3LVvXGYX2BqGgqZSWNFv2Z7VUsaC69faZi8w",
+              "issuer": "5D77Xj7cWGhf3LVvXGYX2BqGgqZSWNFv2Z7VUsaC69faZi8w",
+              "admin": "5D77Xj7cWGhf3LVvXGYX2BqGgqZSWNFv2Z7VUsaC69faZi8w",
+              "freezer": "5D77Xj7cWGhf3LVvXGYX2BqGgqZSWNFv2Z7VUsaC69faZi8w",
+              "supply": "1,000,000,000,000,000",
+              "deposit": "20,000,000,000,000,000,000",
+              "minBalance": "1",
+              "isSufficient": false,
+              "accounts": "101",
+              "sufficients": "0",
+              "approvals": "0",
+              "status": "Live"
+            }
+          }
+        ]
+      },
+      {
+        "name": "staking",
+        "status": "passed-read-only",
+        "result": "100"
+      },
+      {
+        "name": "governance",
+        "status": "passed-read-only",
+        "result": "0"
+      },
+      {
+        "name": "treasury",
+        "status": "passed-read-only",
+        "result": "0"
+      }
+    ],
+    "transactionsBroadcast": 0,
+    "transport": "Read-only isolated native WebSocket provider; not the production WsProvider",
+    "chain": "Persian Gulf Blockchain Testnet",
+    "genesis": "0x723184e0d2628f7bd203c580101778cf0b3428736d617dd59699b29c14d1fb6a",
+    "specVersion": 268,
+    "properties": {
+      "symbols": [
+        "PGC"
+      ],
+      "decimals": [
+        18
+      ],
+      "ss58": 42
+    },
+    "runtimePallets": [
+      "substrate",
+      "system",
+      "babe",
+      "timestamp",
+      "authorship",
+      "indices",
+      "balances",
+      "transactionPayment",
+      "electionProviderMultiPhase",
+      "staking",
+      "session",
+      "democracy",
+      "council",
+      "technicalCommittee",
+      "elections",
+      "technicalMembership",
+      "grandpa",
+      "treasury",
+      "assetRate",
+      "contracts",
+      "sudo",
+      "imOnline",
+      "authorityDiscovery",
+      "offences",
+      "historical",
+      "randomnessCollectiveFlip",
+      "identity",
+      "society",
+      "recovery",
+      "vesting",
+      "scheduler",
+      "glutton",
+      "preimage",
+      "proxy",
+      "multisig",
+      "bounties",
+      "tips",
+      "assets",
+      "poolAssets",
+      "beefy",
+      "mmr",
+      "mmrLeaf",
+      "lottery",
+      "nis",
+      "uniques",
+      "nfts",
+      "nftFractionalization",
+      "salary",
+      "coreFellowship",
+      "transactionStorage",
+      "voterList",
+      "stateTrieMigration",
+      "childBounties",
+      "referenda",
+      "convictionVoting",
+      "whitelist",
+      "allianceMotion",
+      "alliance",
+      "nominationPools",
+      "rankedPolls",
+      "rankedCollective",
+      "assetConversion",
+      "fastUnstake",
+      "messageQueue",
+      "pov",
+      "txPause",
+      "safeMode",
+      "multiBlockMigrations",
+      "broker",
+      "tasksExample",
+      "mixnet",
+      "parameters",
+      "palletExampleMbms",
+      "revive",
+      "delegatedStaking",
+      "assetRewards",
+      "assetsFreezer"
+    ]
+  },
+  "localChecks": {
+    "at": "2026-11-26T18:16:27.956Z",
+    "tests": [
+      {
+        "name": "html",
+        "status": "passed",
+        "httpStatus": 200
+      },
+      {
+        "name": "public-config",
+        "status": "passed",
+        "httpStatus": 200
+      },
+      {
+        "name": "theme",
+        "status": "passed",
+        "httpStatus": 200
+      },
+      {
+        "name": "traversal",
+        "status": "passed",
+        "httpStatus": 403
+      },
+      {
+        "name": "missing",
+        "status": "passed",
+        "httpStatus": 404
+      },
+      {
+        "name": "subresource-integrity",
+        "status": "passed",
+        "checks": 52
+      },
+      {
+        "name": "Midnight static CSS",
+        "status": "passed-static-only"
+      },
+      {
+        "name": "Pearl static CSS",
+        "status": "passed-static-only"
+      },
+      {
+        "name": "wave-retained-no-right-diamond-rings-in-component",
+        "status": "passed-source-check"
+      },
+      {
+        "name": "footer-brand-links",
+        "status": "passed-source-check"
+      }
+    ]
+  },
+  "signerContract": {
+    "status": "passed-simulated-transport-contract-only",
+    "extensionDappVersion": "0.63.1",
+    "injectedIdentifier": "pgb-wallet",
+    "requestApplicationName": "Persian Gulf Explorer",
+    "accountSourceMapped": true,
+    "signPayloadForwarded": true,
+    "signatureWasMock": true,
+    "realChromeExtensionInstalled": false,
+    "realPgbSignerApprovalTested": false,
+    "transactionBroadcast": false
+  },
+  "realChromeUiTested": false,
+  "realSignerApprovalTested": false,
+  "realTransactionBroadcast": false
+}
